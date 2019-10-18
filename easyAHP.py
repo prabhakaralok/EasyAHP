@@ -645,7 +645,7 @@ class easyAHP(object):
         for (notImportantForNow, layerObj) in self.allMapLayers:
             try:
                 if layerObj.rasterType() == 0:
-                    self.dlgStep1.qgisLayerList.addItem(layerObj.name())
+                     self.dlgStep1.qgisLayerList.addItem(layerObj.name())
             except:
                 pass
 
